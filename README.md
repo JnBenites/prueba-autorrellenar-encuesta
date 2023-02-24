@@ -1,5 +1,5 @@
 # prueba-llenar-encuesta
-El código javascript que se ejecuta en la consola del navegador, permite llenar un formulario. Selecciona los input de tipo radio que tenga valor de 4, llena los textarea con una cadena con espacios y finalmente selecciona el boton con Id grabar.
+Un código javascript que se ejecuta en la consola del navegador, con el fin llenar un formulario. Selecciona los input de tipo radio que tenga valor de 4, llena los textarea con una cadena con espacios y finalmente selecciona el botón con Id grabar.
 
 
 ```
