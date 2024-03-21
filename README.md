@@ -16,3 +16,34 @@ opciones.forEach((opcion) =>{
 
 document.getElementById('grabar').click();
 ```
+E D
+```
+var opciones = document.querySelectorAll('select option');
+
+if (opciones.length === 0) {
+    console.log('No se encontraron opciones en los elementos select.');
+} else {
+    var opcionesASeleccionar = [];
+
+    opciones.forEach(function(opcion) {
+        if (opcion.value === "4" || opcion.value === "5") {
+            opcionesASeleccionar.push(opcion);
+        }
+    });
+
+    opciones.forEach(function(opcion) {
+        if (opcion.value === "4" || opcion.value === "5") {
+            opcionesASeleccionar.push(opcion);
+        }
+    });
+
+    if (opcionesASeleccionar.length === 0) {
+        console.log('No se encontraron opciones con valores 4 o 5.');
+    } else {
+        opcionesASeleccionar.forEach(function(opcion) {
+
+            opcion.selected = Math.random() < 0.5; // 50% de probabilidad de seleccionar cada opción
+        });
+    }
+}
+```
